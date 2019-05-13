@@ -9,4 +9,5 @@ public class SemanticVersionApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SemanticVersionApplication.class, args);
 	}
+	
 }
