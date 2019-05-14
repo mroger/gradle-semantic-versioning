@@ -47,6 +47,7 @@ pipeline {
             steps {
                 sh "git fetch --tags"
                 sh "./gradlew -Prelease tag --console=plain"
+                sh "git push -u --tags"
             }
         }
     }
